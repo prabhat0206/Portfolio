@@ -12,8 +12,8 @@ const Qualification = () => {
                   <span className='text-7xl font-semibold text-gray-500 -rotate-90 justify-start'>resume</span>
             </div>
             <div className="flex flex-1 z-1 justify-center items-center">
-                  <div className="flex justify-center w-2/4 items-start h-3/4">
-                    <div className="flex rounded-lg flex-col text-white opacity-25 bg-gray-800 h-4/5 w-full">
+                  <div className="flex justify-center w-2/6 items-start h-3/4">
+                    <div className="flex rounded-lg flex-col text-white opacity-25 bg-gray-800 hover:opacity-60 hover:bg-pink-900 h-4/5 w-full">
                       <div className="flex text-5xl font-medium justify-start pl-10 -mt-7 mb-5">Education</div>
                       <div className="flex flex-1 items-center justify-evenly flex-col ">
                        <div className="flex h-full w-4/5 border-b-2 border-white flex-col">
@@ -42,8 +42,8 @@ const Qualification = () => {
                         </div>                 
                              </div>
                   </div>
-                  <div className="flex justify-center w-2/4 items-end h-3/4 ml-10 mr-10">
-                    <div className="flex rounded-lg flex-col text-white opacity-25 bg-gray-800 h-4/5 w-full">
+                  <div className="flex justify-center w-2/6 items-end h-3/4 ml-10 mr-10">
+                    <div className="flex rounded-lg flex-col text-white opacity-25 hover:opacity-60 bg-gray-800 hover:bg-pink-900 h-4/5 w-full">
                       <div className="flex text-5xl font-medium justify-start pl-10 -mt-7 mb-5">Experience</div>
                       <div className="flex flex-1 items-center justify-evenly flex-col ">
                        <div className="flex h-full w-4/5 border-b-2 border-white flex-col">
