@@ -9,8 +9,10 @@ const Banner = () => {
                     <span className='flex text-[#c32865]'>Howdy,</span>I am Prabhat
                   </p>
             </div>
-            <div className="flex h-2/4 text-white items-start pt-14 justify-center">
-              khhb
+            <div className="flex bg-red-900 text-center h-2/4 text-white items-start pt-14 justify-center">
+       <p className="flex w-3/5 bg-blue-900">
+       Your description Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae maiores nostrum dolorum, expedita ratione amet totam, cupiditate repellat non sequi iste dolor eveniet incidunt optio similique, deserunt quibusdam molestias deleniti.
+       </p>
             </div>
       </div>
       <div className="flex flex-1">

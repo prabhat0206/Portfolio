@@ -3,7 +3,7 @@ import {BiMenu} from "react-icons/bi";
 
 const NavBar = () => {
   return (
-    <div className='flex justify-between h-14 sticky top-0 text-white bg-[#1c1c1c]'>
+    <div className='flex justify-between h-14 fixed w-full top-0 text-white bg-[#1c1c1c]'>
       <div className="flex pl-4 lg:pl-10 w-18 md:w-1/4 font-semibold items-center text-sm">Logo</div>
       <div className="flex items-center text-[#9c9c9c] justify-evenly flex-1">
             <span className="flex md:text-lg text-sm">+96 56-85-1379</span>

@@ -5,7 +5,11 @@ module.exports={
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'contact': "url('https://wallpaperaccess.com/full/2391514.jpg')",
+      }
+    },
   },
   plugins: [],
 }

@@ -13,18 +13,19 @@ import Banner from "$components/banner/banner";
 import BottomPanel from "$components/bottomPanel";
 import Skills from "$components/skills";
 import Qualification from "$components/qualification";
-import Experience from "$components/experience";
+import Experience from "$components/contact";
 
 const HomePage = () => {
   return (
   <div className="flex overflow-y-hidden flex-col w-full">
       <NavBar/>
-      <Banner />
-      <Skills />
-      <Qualification />
-      <Experience />
-      <BottomPanel />
-      
+      <div className="flex overflow-y-scroll flex-col">
+          <Banner />
+          <Skills />
+          <Qualification />
+          <Experience />
+      </div>
+      <BottomPanel /> 
     </div>
   )
 }
