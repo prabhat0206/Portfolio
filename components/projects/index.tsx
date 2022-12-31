@@ -3,8 +3,8 @@ import React from "react";
 const Projects = () => {
   return (
     <div className="flex h-screen bg-[#1a1a1a] text-white flex-col">
-      <div className="flex justify-center h-[50vh]">
-        <div className="flex w-10/12 bg-project bg-no-repeat bg-cover">
+      <div className="flex rounded-lg my-3 justify-center h-[50vh]">
+        <div className="flex rounded-lg w-10/12 bg-project bg-no-repeat bg-cover">
           <div className="flex w-full h-full backdrop-opacity-10 backdrop-invert bg-black/40">
             <div className="flex flex-col flex-1 justify-center items-center">
               <p className="flex text-5xl w-11/12 justify-center font-semibold">
@@ -29,7 +29,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center h-28 w-full my-4">
+      <div className="flex justify-center h-20 w-full my-4">
         <div className="flex w-9/12">
           <div className="flex flex-1 items-center justify-evenly">
             <p className="flex text-[#fac000] font-semibold text-3xl">10+</p>

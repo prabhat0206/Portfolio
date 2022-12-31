@@ -49,6 +49,9 @@ const Contact = () => {
                   placeholder="Comment"
                 />
               </div>
+              <button className="flex bg-[#d00064] font-medium w-24 h-10 items-center justify-center rounded-sm my-5">
+                Submit
+              </button>
             </div>
           </div>
         </div>

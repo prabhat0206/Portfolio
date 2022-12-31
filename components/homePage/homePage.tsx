@@ -18,17 +18,19 @@ import Projects from "$components/projects";
 
 const HomePage = () => {
   return (
-    <div className="flex overflow-y-hidden flex-col w-full">
-      <NavBar />
-      <div className="flex flex-col">
-        <Banner />
-        <Skills />
-        <Qualification />
-        <Projects />
-        <Contact />
+    <>
+      <div className="flex overflow-y-hidden flex-col w-full">
+        <NavBar />
+        <div className="flex flex-col">
+          <Banner />
+          <Skills />
+          <Qualification />
+          <Projects />
+          <Contact />
+        </div>
+        <BottomPanel />
       </div>
-      <BottomPanel />
-    </div>
+    </>
   );
 };
 
